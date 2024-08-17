@@ -1,0 +1,77 @@
+{
+    "texts": [
+        "Press N for News",
+        "Press I for Infotainment",
+        "Press E for Entertainment",
+        "Press M for Movies",
+        "Press C for Cartoons",
+        "Press L for shuffling channels"
+    ],
+    "n_options": [
+        {
+            "text": "TV9",
+            "link": "https://www.youtube.com/watch?v=LsPvM_r6-v0&pp=ygUDVFY5"
+        },
+        {
+            "text": "AajTak",
+            "link": "https://www.youtube.com/watch?v=weXfx1_q5HQ&pp=ygUGQWFqVGFr"
+        }
+    ],
+    "n_heading": "News",
+    "i_options": [
+        {
+            "text": "Discovery",
+            "link": "https://www.youtube.com/watch?v=5uPIqZaxYLA&pp=ygUJRGlzY292ZXJ5"
+        },
+        {
+            "text": "Animal Planet",
+            "link": "https://www.youtube.com/watch?v=5uPIqZaxYLA&pp=ygUNQW5pbWFsIFBsYW5ldA%3D%3D"
+        }
+    ],
+    "i_heading": "Infotainment",
+    "e_options": [
+        {
+            "text": "CID",
+            "link": "https://www.youtube.com/watch?v=qHzWFQRIS2w&pp=ygUDQ0lE"
+        },
+        {
+            "text": "Crime Patrol",
+            "link": "https://www.youtube.com/watch?v=5ClrWrU9HbM&pp=ygUMQ3JpbWUgUGF0cm9s"
+        },
+        {
+            "text": "Pavitra Rishta",
+            "link": "https://www.youtube.com/watch?v=WTowEITeG98&pp=ygUOUGF2aXRyYSBSaXNodGE%3D"
+        },
+        {
+            "text": "Ramayana",
+            "link": "https://www.youtube.com/watch?v=w6-YeTKtq8c&pp=ygUIUmFtYXlhbmE%3D"
+        },
+        {
+            "text": "Mahabharat",
+            "link": null
+        }
+    ],
+    "e_heading": "Entertainment",
+    "m_options": [
+        {
+            "text": "Pushpa",
+            "link": "https://www.youtube.com/watch?v=vTWlBVB7H1I&pp=ygUGUHVzaHBh"
+        },
+        {
+            "text": "Holiday",
+            "link": "https://www.youtube.com/watch?v=kJQ8boTf0wo&pp=ygUHSG9saWRheQ%3D%3D"
+        }
+    ],
+    "m_heading": "Movies",
+    "c_options": [
+        {
+            "text": "Doraemon",
+            "link": "https://www.youtube.com/watch?v=4e7BhnSXJjk&pp=ygUIRG9yYWVtb24%3D"
+        },
+        {
+            "text": "Ninja Hatori",
+            "link": "https://www.youtube.com/watch?v=CJc1YG6yU6o&pp=ygUMTmluamEgSGF0b3Jp"
+        }
+    ],
+    "c_heading": "Cartoons"
+}

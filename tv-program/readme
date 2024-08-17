@@ -1,0 +1,4 @@
+virtualenv project
+source project/bin/activate
+pip install -r requirements.txt
+
