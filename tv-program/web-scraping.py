@@ -7,7 +7,7 @@ import time
 
 
 # Replace with your own WebDriver executable path if necessary
-driver = webdriver.Chrome()  # Make sure to set the path to your WebDriver if it's not in PATH
+driver = webdriver.Chrome("/home/saumil/Desktop/tv-program/chromedriver-linux64/chromedriver")  # Make sure to set the path to your WebDriver if it's not in PATH
 
 
 
@@ -24,8 +24,13 @@ def get_youtube_link(query, i=0):
     time.sleep(2)
     
     # Get the first video link
-    video = driver.find_element("id", "video-title")
-    link = video.get_attribute("href")
+    video = driver.find_elements("id", "video-title")
+
+    link =None
+    j = 0
+    while j<len(video) and link is None:
+        link = video[j].get_attribute("href")
+        j+=1
 
 
     if not link:
@@ -39,10 +44,15 @@ with open('data.json', 'r') as file:
     data = json.load(file)
 
 # Update links in the JSON data
-for key in ['n_options', 'i_options', 'e_options', 'm_options', 'c_options']:
+for key in ['n_options', 'e_options']:
     if key in data:
         for option in data[key]:
             query = option['text']
+            if(key=='n_options'):
+                query  = query + ' live hindi '
+            else:
+                query = query + ' new episode '
+
             new_link = get_youtube_link(query)
             option['link'] = new_link
 
